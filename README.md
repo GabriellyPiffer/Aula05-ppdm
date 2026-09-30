@@ -29,7 +29,51 @@ O APK do aplicativo está disponível na pasta `assets`.
 
 ## ▶️ Como executar
 
-Clone o repositório:
+### Pré-requisitos
 
-```bash
-git clone URL_DO_SEU_REPOSITORIO
+Antes de executar o projeto, é necessário ter instalado:
+
+- Flutter
+- Dart
+- Visual Studio Code
+- Google Chrome
+
+### 1. Clone o repositório
+
+    git clone https://github.com/GabriellyPiffer/Aula05.git
+
+### 2. Entre na pasta do projeto
+
+    cd flutter_masp_nativo
+
+### 3. Instale as dependências
+
+    flutter pub get
+
+### 4. Execute o aplicativo no Google Chrome
+
+    flutter run -d chrome
+
+O aplicativo será aberto no navegador Google Chrome.
+
+### 5. Teste o mapa
+
+1. Aguarde o carregamento do mapa.
+2. Clique em qualquer ponto do mapa.
+3. Um marcador vermelho aparecerá no local selecionado.
+4. A latitude e a longitude serão exibidas na tela.
+
+### 📱 APK
+
+O APK está disponível na pasta:
+
+    assets/app-release.apk
+
+### 🗺️ Tecnologias utilizadas
+
+- Flutter
+- Dart
+- flutter_map
+- OpenStreetMap
+- latlong2
+- Google Chrome
